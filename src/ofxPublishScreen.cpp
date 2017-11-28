@@ -189,7 +189,7 @@ public:
 			if (data.size())
 			{
 				ofPixels temp;
-				if (jpeg.load(data, temp))
+				if (jpeg.load(temp,data))
 				{
 					lock();
 					pix = temp;
