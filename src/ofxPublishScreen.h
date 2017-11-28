@@ -88,7 +88,7 @@ namespace ofxPublishScreen {
 		void begin()
 		{
 			fbo.begin();
-			ofFloatColor bg = ofGetCurrentRenderer()->getBgColor();
+			ofFloatColor bg = ofGetCurrentRenderer()->getBackgroundColor();
 			ofClear(bg.r * 255, bg.g * 255, bg.b * 255);
 		}
 		
